@@ -10,4 +10,4 @@
 </ul>
 
 <h2>Comparing T** to T*:</h2>
-The number of clocks when inserting/removing, for the vector of pointers is significantly lower than vector of shapes. This shows when we work with large objects, using pointers can be more efficient in memory management.
+The number of clocks when inserting/removing, for the vector of pointers is significantly lower than vector of shapes. This shows, as we work with large objects, using pointers can be more efficient in memory management.
