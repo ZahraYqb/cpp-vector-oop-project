@@ -104,12 +104,13 @@ class shape{
 int main (){
     MyVector vect1 (100,shape());
     //Recording how many cpu clocks each operation needs:
+//inserting
     clock_t start = std::clock();
     for (int i=0; i<10; i++){
         vect1.insert(i, shape());}
     clock_t end = std::clock();
     cout << "the number of Insert clocks: " << (end - start) << " clocks" <<endl;
-
+//removing
     start = std::clock();
     for (int i=0; i<10; i++){  
         vect1.remove(i);}
